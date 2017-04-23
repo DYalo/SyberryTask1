@@ -1,0 +1,124 @@
+aside{
+	float: left;
+	
+}
+
+aside li{
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.navBlogCateg, .navPopPostes, .navTagsCloud{
+	margin: 0 0 0 50px;
+	width: 300px;
+	
+}
+
+.aside-menu a, .ulPopPostes a {
+	color: #898989;
+}
+
+.aside-menu li {
+	list-style-position: inside;
+	list-style-type: none;
+	font-size: 13px;
+	
+	padding: 8px 0 8px 0;
+}
+
+
+.aside-menu {
+	margin: 30px 0 0 0;
+}
+.aside-menu li:first-child, .ulPopPostes li:first-child, .ulTagsCloud li:first-child{
+	font-size: 14px;
+	font-weight: bold;
+	color: #515151;
+	padding-bottom: 7px; 
+
+}
+
+span.numberOfItem{
+	float: right;
+	font-size: 11px;
+	border-radius: 2px;
+	background: #dfdfdf;
+    padding: 0 7px 0 7px; 
+}
+
+span.plus{
+	font-size: 12px;
+	font-weight:900;
+	padding-right: 10px;
+}
+
+.aside-menu a:hover, .ulPopPostes a:hover{
+	color: #e26228;
+}
+
+.aside-menu a:hover span.numberOfItem{
+	background: #e26228;
+	color: #fff;  
+}
+
+
+/* POPULAR POSTES*/
+
+.ulPopPostes li{
+	list-style-position: inside;
+	list-style-type: none;
+	font-size: 13px;
+	padding: 10px 0 10px 0;	
+}
+
+
+img.product{
+	float: left;
+	margin-right: 10px;
+}
+
+span.date{
+	font-size: 9px;
+	font-style: italic;
+}
+
+.ulPopPostes a:hover img.product{
+	 outline: 2px solid #e26228;
+}
+
+
+/* TAGS CLOUD*/
+
+
+.ulTagsCloud li{
+	list-style-type: none; 
+
+
+}
+
+li.tagsColumn{
+	border: none;
+	margin: 12px 10px 10px 0;
+}
+
+a.tag{
+	font-size: 12px;
+	color: #898989;
+	border-radius: 2px;
+	background-color: #f5f5f5;
+	margin: 0 5px 0 0 ;
+	padding: 4px 8px 4px 8px;
+}
+
+a.tag:hover{
+	background-color: #e26228;
+	color: #fff;
+}
+
+
+.ulTagsCloud li:first-child{
+	padding-bottom: 10px;
+}
+
+.navPopPostes, .navTagsCloud, .navBlogCateg{
+	padding-bottom: 10px;
+}

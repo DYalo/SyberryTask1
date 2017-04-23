@@ -1,0 +1,200 @@
+section{
+ height: 100%;
+}
+
+ul.filter {
+  margin: 42px 0 0 65px; 
+  padding-left: 0; 
+
+  font-size: 12px;
+  font-weight: bold;
+  float: left;
+
+
+}
+
+
+ul.filter li{
+	float: left;
+	margin-right: 35px;
+}
+
+ul.filter li a {
+  display: block;
+  color: #515151;
+}
+
+ul.filter li:hover, ul.filter li:hover a:hover{
+  color: #e26228;
+}
+
+
+
+
+.gallery{
+  
+  margin-left: 50px;
+  margin-top: 40px;
+  float: left;
+  width: 880px;
+  text-align: center;
+  overflow: hidden;
+
+}
+
+
+
+
+
+.menuColumn{
+  float: left;
+
+}
+
+.menuColumn .imageContent:last-child{
+  margin-right: 0;
+}
+
+
+div.imageContent {
+    float: left;
+    margin: 0 30px 30px 0;
+    position: relative;
+    background: url('../images/contentImage1.jpg') no-repeat center center;
+    height: 237px;
+    width: 271px;
+   
+}
+
+
+
+figure {
+  
+  margin: 0;
+  padding: 73px 0 0 0;
+  position: absolute;
+  bottom: 0;
+  display: none;
+  background-color: rgba( 0, 0, 0, .4);
+}
+
+
+div.menuButton{
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-color: #fff;
+ 
+}
+
+div.menuButton img{
+   display: block;
+   margin: 13px auto;
+}
+
+
+div.menuButton:hover{
+  background-color: #f1f1f1; 
+
+}
+
+.rectangle {
+  position: relative;
+  width: 271px;
+  height: 65px; 
+  text-align: center;
+  background: #e26228;
+}
+.rectangle:before {
+  content: "";
+  position: absolute;
+  top: -9px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #e26228;
+}
+
+
+
+p.coverMenu {
+  
+  margin: 3px 0 0 0 ;
+  color: #fff;
+  font-size: 11.95px;
+  text-align: center;
+}
+
+p.coverMenu:first-child{
+  padding: 13px 0 0 0;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+div.imageContent:hover figure{
+  display: block;
+}
+
+
+
+
+
+.loadMore{
+
+  display: inline-block;
+  border-radius: 3px;
+  background-color: #e26228;
+  
+}
+
+.loadMore p{
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  padding: 4px 15px 4px 3px;
+}
+
+.loadMore img{
+  padding: 5px 0 0 7px;
+
+}
+
+
+.title{
+  margin-bottom: 30px;
+}
+
+section .title:before,
+section .title:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 1px;
+    background-color: #dcdcdc;
+    position: relative;
+}
+
+section .title:before {
+    width: 100%;
+    margin-left: -99%;
+    left: -14px;
+}
+
+section .title:after {
+    width: 100%;
+    margin-right: -99%;
+    right: -14px;   
+}
+
+
+
+.center{
+  margin-bottom: 50px;
+  text-align: center;
+}

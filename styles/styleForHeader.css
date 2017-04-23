@@ -1,0 +1,184 @@
+html { 
+ 	overflow-x: hidden; 
+ }
+
+body {
+	max-width: 1360px;
+	font-family: 'Open Sans', sans-serif;
+	margin: auto;	
+	
+
+}
+
+html, body{
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+/* Upheader with logotype and menu*/
+
+.upHeader{
+	height: 87px;
+}
+
+
+
+
+a img#logotype {
+	float: left;
+	margin: 12px 0 0 89px;	
+}
+
+.logoName {
+	
+	font-size: 25px;
+	font-weight: bold;
+	display: inline-block;
+	margin: 22px 0 0 -2px;	
+}
+
+nav.navTopmenu {
+
+	float: right;
+}
+
+
+
+nav.navTopmenu a:hover, {
+	color: #e26228;
+}
+nav.navTopmenu ul {
+	
+	display: inline-block;
+	margin-top: 27px;
+	margin-right: 25.5px;	
+}
+
+nav.navTopmenu li {
+	list-style-position: inside;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+
+.top-menu li {
+	
+	display: inline-block;
+	padding: 0 41px 0 0;	
+}
+
+.top-menu li.active  {
+
+	background-image: url(../images/MenuBottom.jpg);
+	background-repeat: no-repeat;
+	width:78px;
+	height:27px;
+	padding: 2px 0 0 17px;	
+}
+
+.top-menu li.active a {
+
+	color: #fff;
+}
+
+
+
+
+.top-menu a, .logoName {
+	color: #898989;
+}
+
+
+li.headerPict{
+	padding-right: 14px;
+}
+
+.top-menu a:hover{
+	color: #e26228;
+}
+/* Subheader with description*/
+
+
+.subHeader{
+	line-height: 1px;  
+	background-image: url(../images/HeadingPage.jpg);
+	background-repeat: no-repeat; 
+	width:1360px;
+	height: 156px;
+	background-color: blue;
+	
+}
+
+#dividingLine, #backgroundImage{
+	display: block;
+}
+
+
+
+
+.top-menu a, .logoName {
+	color: #898989;
+}
+
+
+.subHeaderColumns{
+	position: relative;
+	top: 19px;
+	left: 88px;
+}
+
+
+.subHeaderFirstColumn{
+	font-size: 36px;
+	color:#e26228;	
+	text-indent: 0px;
+}
+.subHeaderSecColumn{
+	font-size: 14px;
+	color: #898989;
+	text-indent: 0px;
+}
+
+/* BreakCumb */
+
+
+.breakCumb{
+
+	display: inline-block;
+	width: 1360px;
+	height: 43px;
+	background: linear-gradient(180deg, #fff, #fefefe);
+	border-top: 1px solid #dcdcdc;
+	border-bottom: 1px solid #dcdcdc;
+
+}
+
+ul.breakCumbString{
+	padding: 0;
+	margin:10px 0 0 88px;
+
+}
+
+ul.breakCumbString li {
+ 	display: inline-block;
+	margin: 0;
+   }
+
+.breakCumbString a{
+	color: #e26228;
+}
+li#lastColumn{
+	color: #898989;
+}
+
+
+li#lastColumn,.breakCumbString a {
+	font-size: 12px;
+	font-weight: bold;
+}
